@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AirPods - Apple</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="shortcut icon" href="/img/knowledge_graph_logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<style>
+    .video-container {
+            position: relative;
+            height: calc(100vh + 30vh);
+        }
+        .video-container video {
+            height: 100%;
+            width: 100%;
+            object-fit: cover; 
+            border-radius: 20px; 
+        }
+        .video-overlay {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            font-size: 2em;
+            text-align: center;
+        }
+        .video-overlay h1 {
+            margin-top: -110px;
+            line-height: 2.9; 
+        }
+        .video-overlay span {
+            display: block;
+        }
+        .btn{
+            margin-bottom: -420px;
+            border-radius: 25px;
+            height: 60px;
+            width: 80px;
+            display: inline;
+            
+        }
+       
+        .img-overlay {
+            position: absolute;
+            margin-top: 250px;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: black;
+            font-size: 2em;
+            text-align: center;
+        }
+        .img-overlay h1 {
+            margin-top: -50px;
+            line-height: 2; 
+        }
+        .img-overlay span {
+            display: block;
+        }
+        
+        .product {
+            text-align: center;
+            margin-top: 30px;
+        }
+        .product img {
+            width: 100%;
+            max-width: 200px;
+            margin-bottom: 15px;
+        }
+        .product h1 {
+            font-size: 24px;
+            font-weight: 700;
+        }
+        .product p {
+            font-size: 18px;
+        }
+</style>
+
+</head>
+<body>
+
+    <!-- outer start -->
+     <div class="container-fluid bg-light">
+        <!-- nav start -->
+        <div class="row py-1" style="background-color: rgba(128, 128, 128, 0.205);">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-8" style="font-size: 12px;">
+                <ul class="nav justify-content-around">
+                    <li class="nav-item">
+                    <a class="nav-link active text-dark" aria-current="page" href="home.html"><i class="fa-brands fa-apple"></i></a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link text-dark" href="store.html">Store</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link text-dark" href="#">Mac</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link text-dark" href="#">iPad</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link text-dark" href="#">iPhone</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link text-dark" href="#">Watch</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link text-dark" href="airpods.html">AirPods</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link text-dark" href="tv&home.html">TV & Home</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link text-dark" href="#">Entertainment</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link text-dark" href="accessories.html">Accessories</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link text-dark" href="support.html">Support</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link text-dark" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link text-dark" href="#"><i class="fa-solid fa-bag-shopping"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- nav end -->
+
+        <!-- Top header start -->
+        <div class="row text-center" style="background-color: white">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-1 text-center ms-5">
+                <img src="/img/airpods/airpods_2gen_light__ckwbqlgv1r9e_large.svg" alt="AirPods 2nd Generation">
+                <p><small>AirPods 2nd Generation</small></p>
+            </div>
+            <div class="col-sm-1 text-center ms-2">
+                <img src="/img/airpods/airpods_3gen_light__6r7zooyk4lua_large.svg" alt="AirPods 3rd Generation">
+                <p><small>AirPods 3rd Generation</small></p>
+            </div>
+            <div class="col-sm-1 text-center ms-2">
+                <img src="/img/airpods/airpods_pro_light__ets5a19rt3au_large.svg" alt="AirPods Pro 2nd Generation">
+                <p><small>AirPods Pro 2ndGeneration</small></p>
+            </div>
+            <div class="col-sm-1 text-center px-3 ms-2">
+                <img src="/img/airpods/airpods_max_light__cvaaddhgazqu_large.svg" alt="AirPods Max">
+                <p><small>AirPods Max</small></p>
+            </div>
+            <div class="col-sm-1 text-center px-3 ms-2">
+                <img src="/img/airpods/airpods_compare_light__cmuvdvbxj1w2_large.svg" alt="Compare">
+                <p><small>Compare</small></p>
+            </div>
+            <div class="col-sm-1 text-center px-3 ms-2">
+                <img src="/img/airpods/apple_music_light__fexraacz3dme_large.svg" alt="Apple Music">
+                <p><small>Apple Music</small></p>
+            </div>
+        </div>
+         
+
+        <!-- Top header end -->
+    
+        <!-- Bottom header start -->
+        <div class="row d-flex text-dark py-2" style="background-color: rgba(128, 128, 128, 0.205)">
+            <div class="col-sm-12 text-center small">
+                <span>Get 3 months of Apple Music free with your AirPods.*</span>
+                <span class="text-primary"> Learn more ></span>
+            </div>
+        </div>
+        <!-- Bottom header end -->
+    
+        <!-- main start -->
+        <div class="container-fluid">
+            <div class="row ms-4 py-4 me-4 video-container rounded">
+                <video class="w-100 rounded-5" autoplay loop muted>
+                    <source src="/img/airpods/large_2x.mp4" type="video/mp4" />
+                </video>
+                <div class="video-overlay">
+                    <h1 ><span style="font-size: 2.6em;">AirPods Pro</span></h1>
+                        
+                 <h1> <span  style="font-size: .5em;">  2nd generation</span>
+                 <h1> <span  style="font-size: .5em; margin-top: 80px;">  $249</span>
+                </h1><br>
+                <div style="padding-top: 240px; margin-bottom: -200px;">
+                <div class="btn bg-light text-dark">Buy</div>
+                <div class="btn text-light">Learn more > </div>
+            
+            </div>
+            </div>
+        </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row ms-4 py-4 me-4">
+            <img class=" rounded-5" src="/img/airpods/airpods_3rd_gen__dhy5bknhvtqq_large.jpg" alt="airpods_3rd_gen__dhy5bknhvtqq_large">
+            <div class="img-overlay">
+                <h1 ><span style="font-size: 2.6em;">AirPods</span></h1>
+                    
+             <h1> <span  style="font-size: .5em;">  3rd generation</span>
+             <h1> <span  style="font-size: .5em; margin-top: 40px;"> From $169</span>
+            </h1><br><br><br><br>
+            <div style="margin-bottom: -500px;">
+            <div class="btn text-light" style="background-color: rgba(0, 0, 255, 0.842);">Buy</div>
+            <div class="btn" style="color: blue;">Learn more > </div>
+            </div>
+            </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row ms-4 py-4 me-4 bg-light rounded-5">
+                <div class="col-sm-6">
+                <img class="rounded-5 " style="margin-left: 100px;" src="/img/airpods/airpods_2ndgen_left__gjpt8k836yy6_large.png" alt="airpods_2ndgen_left__gahfggwvcx6q_large.png">
+            </div>
+                <div class="col-sm-6" >
+                <img style="margin-top:230px;" src="/img/airpods/airpods_2ndgen_right__gahfggwvcx6q_large.png" alt="">
+            </div>
+                <div class="img-overlay">
+                <h1 ><span style="font-size: 2.6em;">AirPods</span></h1>
+                    
+             <h1> <span  style="font-size: .5em;">  2nd generation</span>
+             <h1> <span  style="font-size: .5em; margin-top: 40px;"> $129</span>
+            </h1><br><br><br><br>
+            <div style="margin-bottom: -500px;">
+            <div class="btn text-light" style="background-color: rgba(0, 0, 255, 0.842);">Buy</div>
+            <div class="btn" style="color: blue;">Learn more > </div>
+        </div>
+            </div>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row justify-content-center ms-4 py-4 me-4 w-50">
+            <img class=" rounded-5" src="/img/airpods/airpods_max__f265q4g4ddym_large.png" alt="airpods_3rd_gen__dhy5bknhvtqq_large">
+            <div class="img-overlay mt-4">
+             <h1 ><span style="font-size: 5.0em;">AirPods Max</span></h1>
+             <h1> <span  style="font-size: .5em; margin-top: -110px;"> $549</span>
+            </h1><br><br><br><br>
+            <div style="margin-bottom: -380px;">
+            <div class="btn text-light" style="background-color: rgba(0, 0, 255, 0.842);">Buy</div>
+            <div class="btn" style="color: blue;">Learn more > </div>
+            </div>
+            </div>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row">
+                <p style="font-size: 80px; font-weight: 700; text-align: center;" >A magical connection to</p>
+                <p style="font-size: 80px; font-weight:700; text-align: center; margin-top: -60px;">your devices.</p>
+                <div class="row row-cols-1 row-cols-md-4 g-5 bg-light">
+                    <div class="col">
+                      <div class="card h-100 text-center">
+                        <img src="/img/airpods/tile_onetap_setup__fzj1m8dhjoq6_large.jpg" class="card-img-top w-100" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">One-tap setup</h5>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card h-100 text-center">
+                        <img src="/img/airpods/tile_spatial_audio__c9aidaa6ntkm_large.jpg" class="card-img-top w-75" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Personalized Spatial Audio</h5>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card h-100 text-center">
+                        <img src="/img/airpods/tile_audio_sharing__ord9ku1kssq6_large.jpg" class="card-img-top w-100" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Audio Sharing</h5>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card h-100 text-center">
+                        <img src="/img/airpods/tile_automatic_switching__etjisgj91gk2_large.jpg" class="card-img-top w-100" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Automatic Switching</h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row" style="padding-top: 150px;">
+                <p style="font-size: 70px; font-weight: 700; text-align: center;">Which AirPods are</p>
+                <p style="font-size: 70px; font-weight:700; text-align: center; margin-top: -60px;">right for you?</p>
+            </div>
+            <div class="row d-flex justify-content-center">
+                <div class="col-sm-3 product">
+                    <img src="/img/airpods/compare_airpods_2nd_gen__fw52r8rxrpyu_large.png" alt="AirPods 2nd generation">
+                    <h1>AirPods</h1>
+                    <p>2nd generation</p>
+                    <p>$129</p>
+                    <div class="btn text-light" style="background-color: rgba(0, 0, 255, 0.842);">Buy</div><br>
+                    <div class="btn" style="color: blue;">Learn more > </div>
+                    <hr>
+                    <h3>-</h3><br><br><br><br>
+                    <h3>-</h3><br><br><br><br>
+                    <h3>-</h3><br><br><br><br>
+                    <h3>-</h3><br><br><br><br>
+                    <h3>-</h3><br><br><br>
+                    <img src="/img/airpods/icon_airpods_2nd_gen__by79soh60lqq_large.png" style="height: 30px; width: 30px;" alt="">
+                    <p><small>Lightning Charging Case</small></p><br><br><br>
+                    <h1 style="font-size: 50px;">5 hrs</h1>
+                    <p>Up to 5 hours of listening <br> time with a single charge ΔΔΔ</p>
+                    
+                </div>
+                <div class="col-sm-3 product">
+                    <img src="/img/airpods/compare_airpods_3rd_gen__dyuzfy04ht0m_large.png" alt="AirPods 3rd generation"><br><br><br><br>
+                    <h1>AirPods</h1>
+                    <p>3rd generation</p>
+                    <p>$179</p>
+                    <div class="btn text-light" style="background-color: rgba(0, 0, 255, 0.842);">Buy</div><br>
+                    <div class="btn" style="color: blue;">Learn more > </div>
+                    <hr>
+                    <h3>-</h3><br><br><br><br>
+                    <h3>-</h3><br><br><br><br>
+                    <h3>-</h3><br><br>
+                    <img src="/img/airpods/icon_spatial_audio__kmoa5vlnkdmm_large.png" style="height: 30px; width: 30px;" alt="">
+                    <p><small>Personalized Spatial Audio <br> with dynamic head tracking ◊◊</small></p><br>
+                    <img src="/img/airpods/icon_water_resistent__6yj92ikcoiaa_large.png" style="height: 30px; width: 30px;" alt="">
+                    <p><small>Dust, sweat, and <br>water resistant Δ</small></p><br>
+                    <img src="/img/airpods/icon_airpods_pro__fd6x243wxsuy_large.png" style="height: 30px; width: 30px;" alt="">
+                    <p><small>Lightning Charging Case or <br> MagSafe Charging Case ΔΔ</small></p><br><br>
+                    <h1 style="font-size: 50px;">6 hrs</h1>
+                    <p>Up to 5 hours of listening <br> time with a single charge ΔΔΔ</p>
+                </div>
+                <div class="col-sm-3 product">
+                    <img src="/img/airpods/compare_airpods_pro__e9uzt0mzviem_large.png" alt="AirPods Pro"><br><br><br>
+                    <h1>AirPods Pro</h1>
+                    <p>2nd generation</p>
+                    <p>(USB-C)</p>
+                    <p>$249</p>
+                    <div class="btn text-light" style="background-color: rgba(0, 0, 255, 0.842);">Buy</div><br>
+                    <div class="btn" style="color: blue;">Learn more > </div>
+                    <hr>
+                    <img src="/img/airpods/icon_adaptive_audio__d8u8yljaa8mu_large.png" style="height: 30px; width: 30px;" alt="">
+                    <p><small>Adaptive Audio ◊</small></p><br>
+                    <img src="/img/airpods/icon_noise_cancellation__dte2s5scoscy_large.png" style="height: 30px; width: 30px;" alt="">
+                    <img src="/img/airpods/icon_transparency__fdepuo39ruum_large.png" style="height: 30px; width: 30px;" alt="">
+                    <p><small>Active Noise <br> Cancellation and <br> Transparency mode</small></p>
+                    <img src="/img/airpods/icon_conversation_awareness__f72duwcnafyy_large.png" style="height: 30px; width: 30px;" alt="">
+                    <p><small>Conversation Awareness ◊</small></p><br>
+                    <img src="/img/airpods/icon_spatial_audio__kmoa5vlnkdmm_large.png" style="height: 30px; width: 30px;" alt="">
+                    <p><small>Personalized Spatial Audio <br> with dynamic head tracking ◊◊</small></p><br>
+                    <img src="/img/airpods/icon_water_resistent__6yj92ikcoiaa_large.png" style="height: 30px; width: 30px;" alt="">
+                    <p><small>Dust, sweat, and <br>water resistant Δ</small></p><br>
+                    <img src="/img/airpods/icon_airpods_pro__fd6x243wxsuy_large.png" style="height: 30px; width: 30px;" alt="">
+                    <p><small>MagSafe Charging Case <br> (USB‑C) with speaker and <br> lanyard loop ΔΔ</small></p><br>
+                    <h1 style="font-size: 50px;">6 hrs</h1>
+                    <p>Up to 5 hours of listening <br> time with a single charge ΔΔΔ</p>
+                </div>
+                <div class="col-sm-3 product">
+                    <img src="/img/airpods/compare_airpods_max__b14s2x6q07rm_large.png" alt="AirPods Max"><br><br><br><br>
+                    <h1>AirPods Max</h1>
+                    <p>$549</p>
+                    <div class="btn text-light" style="background-color: rgba(0, 0, 255, 0.842);">Buy</div><br>
+                    <div class="btn" style="color: blue;">Learn more > </div>
+                    <hr>
+                    <h3>-</h3><br> <br><br>
+                    <img src="/img/airpods/icon_noise_cancellation__dte2s5scoscy_large.png" style="height: 30px; width: 30px;" alt="">
+                    <img src="/img/airpods/icon_transparency__fdepuo39ruum_large.png" style="height: 30px; width: 30px;" alt="">
+                    <p><small>Active Noise <br> Cancellation and <br> Transparency mode</small></p><br><br>
+                    <h3>-</h3><br><br>
+                    <img src="/img/airpods/icon_spatial_audio__kmoa5vlnkdmm_large.png" style="height: 30px; width: 30px;" alt="">
+                    <p><small>Personalized Spatial Audio <br> with dynamic head tracking ◊◊</small></p><br><br><br>
+                    <h3>-</h3><br><br>
+                    <img src="/img/airpods/icon_airpods_max__utl1i3hqs6aq_large.png" style="height: 30px; width: 30px;" alt="">
+                    <p><small>Smart Case</small></p><br><br>
+                    <h1 style="font-size: 50px;">20 hrs</h1>
+                    <p>Up to 20 hours of listening <br> time with a single charge ΔΔΔ</p>
+                </div>
+            </div><br><br><br>
+            <div class="btn" style="color: blue; font-size: 20px; margin-left: 500px;">Compare all AirPods models > </div>
+            <hr>
+        </div>
+        <div class="row mt-5">
+            <div class="row">
+                <div class="col-sm-1"></div>
+                <div class="col-sm-10 d-flex">
+                    <div class="col-sm-3 icon-section">
+                        <div class="icon" ><i  class="fa-solid fa-truck"></i></div>
+                        <div class="icon-title">Fast, free delivery</div>
+                        <p class="icon-description">Or pick up available items at an <br> Apple Store.</p>
+                        <a href="#" class="learn-more">Learn more ></a>
+                    </div>
+                    <div class="col-sm-3 icon-section">
+                        <div class="icon"><i class="fa-regular fa-comment-dots"></i></div>
+                        <div class="icon-title">Get help buying</div>
+                        <p class="icon-description">Have a question? Call a Specialist or chat online.</p>
+                        <p class="icon-description">Call 1-800-MY-APPLE.</p>
+                        <a href="#" class="learn-more">Contact us ></a>
+                    </div>
+                    <div class="col-sm-3 icon-section">
+                        <div class="icon"><i class="fa-regular fa-comment-dots"></i></div>
+                        <div class="icon-title">Get help buying</div>
+                        <p class="icon-description">Have a question? Call a Specialist or chat online.</p>
+                        <p class="icon-description">Call 1-800-MY-APPLE.</p>
+                        <a href="#" class="learn-more">Contact us ></a>
+                    </div>
+                    <div class="col-sm-3 icon-section">
+                        <div class="icon"><i class="fa-regular fa-comment-dots"></i></div>
+                        <div class="icon-title">Get help buying</div>
+                        <p class="icon-description">Have a question? Call a Specialist or chat online.</p>
+                        <p class="icon-description">Call 1-800-MY-APPLE.</p>
+                        <a href="#" class="learn-more">Contact us ></a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+        <!-- main end -->
+
+        <!-- footer start -->
+        <div class="row" style="background-color: rgb(240, 240, 240);">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-8 py-3" style="font-size: 12px;">
+                <p>
+                    * New subscribers only. $10.99/month after trial. Offer is available for new Apple Music subscribers with a new eligible device for a limited time only. Offer redemption for eligible audio devices requires connecting or pairing to an Apple device running the latest iOS or iPadOS. Offer redemption for Apple Watch requires connecting or pairing to an iPhone running the latest iOS. Offer good for three months after eligible device activation. Only one offer per Apple ID, regardless of the number of eligible devices you purchase. Plan automatically renews until cancelled. Restrictions and other <a href="#">terms</a> apply. <br> <br>
+                    Representative example:<br><br>
+                    1. Requires an iCloud account and a compatible Apple device running the latest operating system software.<br><br>
+                    2. Compatible hardware and software required. Works with compatible content in supported apps. Not all content available in Dolby Atmos. iPhone with TrueDepth camera required to create a personal profile for Spatial Audio, which will sync across Apple devices running the latest operating system software, including iOS, iPadOS, macOS, and tvOS.<br><br>
+                    3. Requires a compatible Apple device running the latest operating system software. <br><br>
+                    † Apple Card Monthly Installments (ACMI) is a 0% APR payment option that is only available if you select it at checkout in the U.S. for eligible products purchased at Apple Store locations, apple.com, the Apple Store app, or by calling 1‑800‑MY‑APPLE, and is subject to credit approval and credit limit. See <a href="#">support.apple.com/kb/HT211204</a> for more information about eligible products. APR ranges may vary based on when you accepted an Apple Card. Cardholders who accept an Apple Card on and/or after February 1, 2024: Variable APRs for Apple Card, other than ACMI, range from 19.24% to 29.49% based on creditworthiness. Rates as of February 1, 2024. Existing cardholders: See your Customer Agreement for applicable rates and fee. If you buy an ACMI‑eligible product by choosing to pay in full with Apple Card (instead of using ACMI), that purchase is subject to the Apple Card variable APR, not 0% APR. Taxes and shipping on ACMI purchases are subject to the variable APR, not 0% APR. When you buy an iPhone with ACMI, you’ll need to select AT&T, T‑Mobile, or Verizon as your carrier when you check out. An iPhone purchased with ACMI is always unlocked, so you can switch carriers at any time. ACMI is not available for purchases made online at the following special stores: Apple Employee Purchase Plan; participating corporate Employee Purchase Programs; Apple at Work for small businesses; Government, and Veterans and Military Purchase Programs, or on refurbished devices. The last month’s payment for each product will be the product’s purchase price, less all other payments at the monthly payment amount. ACMI financing is subject to change at any time for any reason, including but not limited to, installment term lengths and eligible products. See <a href="#">support.apple.com/kb/HT211204</a> for information about upcoming changes to ACMI financing. See the <a href="#">Apple Card Customer Agreement</a> for more information about ACMI financing. <br><br>
+                    ◊ Works with AirPods Pro (2nd generation) with the latest firmware when paired with a compatible Apple device running the latest operating system software. <br><br>
+                    ◊◊ Compatible hardware and software required. Works with compatible content in supported apps. Not all content available in Dolby Atmos. iPhone with TrueDepth camera required to create a personal profile for Spatial Audio, which will sync across Apple devices running the latest operating system software, including iOS, iPadOS, macOS, and tvOS. <br><br>
+                    ◊◊◊ AirPods (3rd generation) are sweat and water resistant for non-water sports and exercise, and they are IPX4 rated. Sweat and water resistance are not permanent conditions. <br><br>
+                    Δ AirPods Pro (2nd generation) are dust resistant and sweat and water resistant for non-water sports and exercise, and they are IP54 rated. Dust, sweat, and water resistance are not permanent conditions. <br><br>
+                    ΔΔ MagSafe charging requires a compatible MagSafe charger. Wireless charging requires a Qi‑certified wireless charger. AirPods (3rd generation) charging case also works with the Lightning connector. AirPods Pro (2nd generation) charging case also works with the Apple Watch charger or USB‑C connector. <br><br>
+                    ΔΔΔ Battery life depends on device settings, environment, usage, and many other factors. <br><br>
+                    To access and use all the features of Apple Card, you must add Apple Card to Wallet on an iPhone or iPad with the latest version of iOS or iPadOS. Update to the latest version by going to Settings > General > Software Update. Tap Download and Install. <br><br>
+                    Available for qualifying applicants in the United States. <br><br>
+                    Apple Card is issued by Goldman Sachs Bank USA, Salt Lake City Branch. <br><br>
+                    If you reside in the U.S. territories, please call Goldman Sachs at 877‑255‑5923 with questions about Apple Card.
+                    
+                </p>
+                <hr>
+                <div class="row">
+                    <div class="col-sm-7">
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <div class="fw-bolder">Shop and Learn</div>
+                                <div>Store</div>
+                                <div>Mac</div>
+                                <div>iPad</div>
+                                <div>iPhone</div>
+                                <div>Watch</div>
+                                <div>AirPods</div>
+                                <div>TV & Home</div>
+                                <div>AirTag</div>
+                                <div>Accessories</div>
+                                <div>Gift Cards</div><br>
+                                <div class="fw-bolder">Apple Wallet</div>
+                                <div>Wallet</div><br>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="fw-bolder">Account</div>
+                                <div>Manage Your Apple ID</div>
+                                <div>Apple Store Account</div>
+                                <div>iCloud.com</div><br>
+                                <div class="fw-bolder">Entertainment</div>
+                                <div>Apple One</div>
+                                <div>Apple TV+</div>
+                                <div>Apple Music</div>
+                                <div>Apple Arcade</div>
+                                <div>Apple Podcasts</div>
+                                <div>Apple Books</div>
+                                <div>Apple Store</div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="fw-bolder">Apple Store</div>
+                                <div>Find a Store</div>
+                                <div>Genius Bar</div>
+                                <div>Today at Apple</div><br>
+                                <div>Group Reservations</div><br>
+                                <div>Apple Camp</div>
+                                <div>Apple Trade In</div>
+                                <div>Ways to Buy</div>
+                                <div>Recycling Programme</div>
+                                <div>Order Status</div>
+                                <div>Shopping Help</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-5">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="fw-bolder">For Business</div>
+                                <div>Apple and Business</div>
+                                <div>Shop and Business</div><br>
+                                <div class="fw-bolder">For Education</div>
+                                <div>Apple and Education</div>
+                                <div>Shop and Education</div>
+                                <div>Shop and University</div><br>
+                                <div class="fw-bolder">For Healthcare</div>
+                                <div>Apple in Healthcare</div>
+                                <div>Mac in Healthcare</div>
+                                <div>Health on Apple Watch</div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="fw-bolder">Apple Values</div>
+                                <div>Accessibility</div>
+                                <div>Education</div><br>
+                                <div>Environment</div>
+                                <div>Privacy</div>
+                                <div>Supply Chain</div><br>
+                                <div class="fw-bolder">About Apple</div>
+                                <div>Newsroom</div>
+                                <div>Apple Leadership</div>
+                                <div>Career Opportunities</div>
+                                <div>Investors</div>
+                                <div>Ethics & Compliance</div>
+                                <div>Events</div>
+                                <div>Contact Apple</div>
+                            </div>
+                        </div>
+                    </div>
+                </div><br>
+                <span>More ways to shop: </span><a href="">Find an Apple Store</a><span> or </span><a href="">other retailer</a><span> near you. Or call 000800 040 1966.</span>
+                <hr>
+                <div class="row">
+                    <div class="col-sm-4">Copyright © 2024 Apple Inc. All rights reserved.</div>
+                    <div class="col-sm-6">Privacy Policy | Terms of Use | Sales Policy | Legal | Site Map</div>
+                    <div class="col-sm-2 text-end">India</div>
+                </div>
+            </div>
+        </div>
+        <!-- footer end -->
+     </div>
+    <!-- outer end -->
+</body>
+</html>
